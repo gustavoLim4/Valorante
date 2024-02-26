@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    width: 900vh;
+}
+.formulario {
+    width: 45%;
+}
+.separar {
+    display: flex;
+}
+
+.separar img {
+    width: 70%;
+    max-height: 1146px;
+}
+
+.imglogo img {
+    width: 10%;
+    
+}
+
+.imglogo {
+    margin:100px 0px 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.entrar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.input {
+    padding: 0px 100px;
+}
+
+.contatos {
+    display: flex;
+    width: 100%;
+    padding:0px 100px;
+    justify-content: space-around;
+}
+
+.contatos img {
+    width: 35%;
+ 
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+.contatos a:nth-child(1) {
+    background-color: #2354bd;
+} 
+
+.contatos a:nth-child(3) {
+    background-color: #000000;
+    
+}
+.seta {
+    background-color: rgb(254, 49, 49);
+    border-radius: 30px;
+    width: 12%;
+    
+    margin: 0 auto;
+} 
+
+.seta path {
+    color: #ffffff;
+}
+
+.footer {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    text-align: center;
+    align-items: end;
+    margin: 0 auto;
+    color: #00000049;
+}
+.form-check label {
+    color: #00000049;
+}
+.form-check {
+    font-size: 1.4em;
+    padding-left: 6em;
+    margin-bottom: 17%;
+}

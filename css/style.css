@@ -16,9 +16,9 @@ body {
 }
 
 .separar img {
-    width: 70%;
-    max-height: 1146px;
-    max-width: 1040px;
+    width: 55%;
+    max-height: 1105px;
+    max-width: 1139px;
 }
 
 .imglogo img {
@@ -82,8 +82,18 @@ body {
     color: #ffffff;
 }
 
+
+.form-check label {
+    color: #00000049;
+}
+.form-check {
+    font-size: 1.4em;
+    padding-left: 6em;
+    margin-bottom: 15%;
+}
+
 .footer {
-    height: 240px;
+    height: 175px;
     display: flex;
     justify-content: center;
     width: 28%;
@@ -91,12 +101,4 @@ body {
     align-items: end;
     margin: 0 auto;
     color: #00000049;
-}
-.form-check label {
-    color: #00000049;
-}
-.form-check {
-    font-size: 1.4em;
-    padding-left: 6em;
-    margin-bottom: 17%;
 }
